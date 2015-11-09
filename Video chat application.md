@@ -4,7 +4,7 @@
 
 # Step A: Create one HTML file. in this example we are taking Video.html as a file name.
 
-### A:1 After creating file add following two script
+>After creating file add following two script
 
 ```sh
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
