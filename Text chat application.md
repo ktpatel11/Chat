@@ -234,10 +234,6 @@ peer.on('open', function(id) {
 
 		<div class="clear"></div>
 	</div>
-
-	<div id="box" style="background: #fff; font-size: 18px;padding:40px 30px; text-align: center;">
-		Drag file here to send to active connections.
-	</div>
 </body>
 ```
 
