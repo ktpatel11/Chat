@@ -8,7 +8,7 @@
 
 # Step A: Create one HTML file.
 
-> to add HTML tag and css file start your coding with following command.
+> to add HTML tag and css file start your coding with following code.
 
 ```sh
 <!DOCTYPE HTML>
