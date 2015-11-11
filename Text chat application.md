@@ -1,10 +1,26 @@
 # Text chat application
 
 > Lets start creating a simple Text chatting application using WebRTC. which has one to many communication functionality.
+> please see following image to understand basic GUI of application which we are going to develop.
+
+![Image of textchat]
+(https://github.com/ktpatel11/Chat/blob/gh-pages/images/textchat.png)
 
 # Step A: Create one HTML file.
 
-> After creating file add following two script
+> to add HTML tag and css file start your coding with following command.
+
+```sh
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>PeerJS chat demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="en-us">
+<link href="fancy.css" rel="stylesheet" type="text/css">
+```
+
+>After adding HTML tag and CSS file, add following two script
 
 ```sh
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
@@ -15,7 +31,7 @@
 
 > URL: http://nttcom.github.io/skyway/en/
 
-> after successfully login you will get API key.　Use that API key in following code.
+> after successfully login you will get API key.　Use that API key in following code in script part of code.
 
 ```sh
 // Connect to PeerJS, have server assign an ID instead of providing one
