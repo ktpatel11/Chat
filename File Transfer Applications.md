@@ -1,6 +1,11 @@
 # File Transfer Applications.
 
 > to add the file transfer functionality in text chat application perform following steps.
+> please see following image to understand basic GUI of application which we are going to develop.
+
+![Image of file]
+(https://github.com/ktpatel11/Chat/blob/gh-pages/images/file.png)
+
 
 # Step A: Prepare file drop box.
 
@@ -48,13 +53,14 @@ else if (c.label === 'file') {
    }
  });
 }
-``` 
+```
 
 # Step C: Drop file GUI area
 
 > add following code into body part of HTML file.
 
 ```sh
+
 	<div id="box" style="background: #fff; font-size: 18px;padding:40px 30px; text-align: center;">
 		Drag file here to send to active connections.
 	</div>
