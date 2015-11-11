@@ -4,7 +4,7 @@
 > please see following image to understand basic GUI of application which we are going to develop.
 
 ![Image of videochat]
-(https://github.com/ktpatel11/Chat/images/videochat.png)
+(https://github.com/ktpatel11/Chat/blob/gh-pages/images/videochat.png)
 
 # Step A: Create one HTML file.
 
@@ -186,6 +186,7 @@ function step3 (call) {
 		</div>
 	</div>
 </body>
+</html>
 ```
 
 - Save your file and run your project.
