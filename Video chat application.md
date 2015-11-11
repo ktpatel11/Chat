@@ -1,10 +1,23 @@
 # Video chat application
 
 > Lets start creating a simple video chatting application using WebRTC. which has one to one communication functionality.
+> please see following image to understand basic GUI of application which we are going to develop.
 
-# Step A: Create one HTML file. in this example we are taking Video.html as a file name.
+![Image of videochat]
+(https://github.com/ktpatel11/Chat/images/videochat.png)
 
->After creating file add following two script
+# Step A: Create one HTML file.
+
+> to add HTML tag and css file start your coding with following command.
+
+```sh
+<html>
+<head>
+  <title>PeerJS - Video chat example</title>
+  <link rel="stylesheet" href="style.css">
+```
+
+>After adding HTML tag and CSS file, add following two script
 
 ```sh
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
@@ -15,7 +28,7 @@
 
 > URL: http://nttcom.github.io/skyway/en/
 
-> after successfully login you will get API key.　Use that API key in following code.
+> after successfully login you will get API key.　Use that API key in following code in script part of code.
 
 ```sh
 // PeerJS object
